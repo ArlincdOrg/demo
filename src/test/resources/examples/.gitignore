@@ -1,0 +1,87 @@
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+.ideaDataSources
+.shelf
+dataSources
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# project ignore
+**/tmp
+pom.xml.versionsBackup
+
+# classes
+classes/
+
+#logs file
+logs/
+#temp file
+temp/
+#lib file
+lib/
+# Log path
+*/logPath_IS_UNDEFINED
+logPath_IS_UNDEFINED/
+ 
+
+bak/
+# idea http plugin
+*.http
+*.env.json
+/http-client
+
+# language translate message
+i18n/messages*.properties
+agile-pms-app-service/agile-pms-app-service-provider/i18n/
+
+#jrebel + xrebel
+*rebel*.xml*
+bootstrap-zs.properties
+jrebel*.jar
+
+#gradle
+.gradle
+
+# ideaDataSources
+.ideaDataSources
+
+# .shelf
+.shelf
+
+*.event
+*.metric
+
+
+build/
+/init_java_pre_commit.bat
+
+**/out/production/resources/
+**/out/test/resources/
+
+out/
+
+**/bin/default
+
+.flattened-pom.xml
+.run
+/agile-pms-app-service/agile-pms-app-service-provider/src/main/resources/hgf/
