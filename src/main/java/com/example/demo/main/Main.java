@@ -13,6 +13,7 @@ public class Main {
     }
 
     public static void format(String url, String... args) {
+        // 第三个没用到注释
         String format = new MessageFormat(url).format(args);
         System.out.println(format);
     }
