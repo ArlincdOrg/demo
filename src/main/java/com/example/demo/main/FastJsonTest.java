@@ -15,6 +15,7 @@ import java.util.List;
 public class FastJsonTest {
 
     public static void main(String[] args) {
+
         String json = "[2022,2023,2024";
         List<Integer> list = new ArrayList<>();
         try {
